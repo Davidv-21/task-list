@@ -2,15 +2,12 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f2f2f2;
 }
 
 .task-manager {
   max-width: 600px;
   margin: 0 auto;
   padding: 20px;
-  background-color: #336633;
-  color: #ffffff;
   text-align: center;
 }
 
@@ -42,17 +39,11 @@ button {
   padding: 8px 16px;
   margin-top: 10px;
   border: none;
-  background-color: #1e7e34;
-  color: #ffffff;
   cursor: pointer;
 }
 
-button:hover {
-  background-color: #14591a;
-}
-
 .task {
-  background-color: #ffffff;
+  background-color: hsl(106, 93%, 47%);
   padding: 10px;
   margin-bottom: 10px;
   text-align: left;
@@ -72,7 +63,7 @@ button:hover {
   padding: 5px 10px;
   margin-right: 5px;
   background-color: #4caf50;
-  color: #ffffff;
+  color: #ee4401;
   border: none;
   cursor: pointer;
 }
@@ -85,7 +76,7 @@ button:hover {
   padding: 5px 10px;
   margin-right: 5px;
   background-color: #ff9800;
-  color: #ffffff;
+  color: black;
   border: none;
   cursor: pointer;
 }
@@ -97,13 +88,13 @@ button:hover {
 .task .delete-button {
   padding: 5px 10px;
   background-color: #ff3333;
-  color: #ffffff;
+  color: black;
   border: none;
   cursor: pointer;
 }
 
 .task .delete-button:hover {
-  background-color: #cc0000;
+  background-color: black;
 }
 
 .completed-tasks {
